@@ -1,165 +1,129 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="porfatolio sebastian">
-	<meta name="keywords" content="Desarrollador Desktop"><!--No colocar mas de 3 Keywords-->
-	<title>Portafolio Sebastian</title>
-	<script src="https://kit.fontawesome.com/075b67f81a.js" crossorigin="anonymous"></script>
-	<link rel="shorcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/variables.css">
-	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;800&family=Lato&display=swap" rel="stylesheet">	
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-	<div class="background-header">
-		<header class="header">
-			<img src="images/logo-01.png" alt="" class="logo-header">
-			<nav class="navegacion" id="nav-id">
-				<ul class="contenedor-item">
-					<li class="item"><a href="#">Inicio</a></li>
-					<li class="item"><a href="#">Proyectos</a></li>
-					<li class="item"><a href="#">Estudios</a></li>
-					<li class="item"><a href="#">Contacto</a></li>
-					<li class="item"><a href="#">Habilidades</a></li>
-				</ul>
-			</nav>
-			<div class="icon-menu"><i class="fas fa-bars"></i></div>
-		</header>
-	</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Ninth navbar example">
+    <div class="container-xl">
+        <a class="navbar-brand" href="#">Container XL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-	<div class="contenedor-layout">
-		<main class="contenido-principal">
-			<article class="contenedor-A">
-				<figure class="contenedor-foto">
-					<img class="img-portada" src="images/portada.jpg" alt="foto del portafolio">
-					<div class="contenedor-logo">
-						<img class="logo" src="images/logo-01.png" alt="logo de SEPH">
-					</div>
-					<figcaption class="descripcion-foto sub-titulo">Sebastián EPH</figcaption>
-				</figure>
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form>
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+</nav>
 
-				<div class="contenedor-portafolio">
-					<h1 class="titulo-principal">Portafolio</h1>
-					<p class="categoria"><strong><i class="icon fas fa-user-tie"></i> Desarrollador Desktop</strong></p>
-					<p class="categoria"><strong><i class="icon fas fa-map-marker-alt"></i> Lima - Perú</strong></p>
-					<p class="categoria"><strong><i class="icon fas fa-envelope-open-text"></i> SebastianEPH99@gmail.com</strong></p>
-					<hr class="linea-divisora"/> <!--No borrar importante para semantica-->
-					<h2 class="sub-titulo">Habilidades</h2>
-					<div class="contenedor-habilidad">
-						<p class="nombre-habilidad"><em>Python</em></p>
-						<div class="contenedor-progreso">
-							<div class="progreso"></div>
-						</div>
-						<p class="valor-habilidad"><span>80%</span></p>
-					</div>
-					<div class="contenedor-habilidad">
-						<p class="nombre-habilidad"><em>Java</em></p>
-						<div class="contenedor-progreso">
-							<div class="progreso dos"></div>
-						</div>
-						<p class="valor-habilidad"><span>50%</span></p>
-					</div>
-					<div class="contenedor-habilidad">
-						<p class="nombre-habilidad"><em>C#</em></p>
-						<div class="contenedor-progreso">
-							<div class="progreso tres"></div>
-						</div>
-						<p class="valor-habilidad"><span>50%</span></p>
-					</div>
-					<p><a class="boton" href="#">ver mas <i class="fas fa-chevron-down"></i></a></p>
-				</div>
-			</article>
-		</main>
+<div class="container">
+    <div class="row">
+        <div class="col-2">
 
-		<div class="contenedor-B">
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Bibliotecas</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto" ><strong >WindowsRegistryTools WRT- C# </strong><a target="_blank" href="https://github.com/SebastianEPH/WindowsRegistryTools_Library" ><i class="fas fa-link"></i>  Ir al Repositorio </a> </p>
-					<p class="descripcion-proyecto">C#.net Framework - Biblioteca para Crear, Leer y eliminar llaves  y valores del registro de Windows (REGEDIT) [Consola] y [Formulario].</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>Conexión FTP - Python </strong><a target="_blank" href="https://github.com/SebastianEPH/ConexionFTP_Python"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Biblioteca para python, envía y recibe archivos mediante un servidor FTP .</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>Python SendMessageByEmail </strong><a target="_blank" href="https://github.com/SebastianEPH/Python-SendMessageByEmail"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Biblioteca para python, envía y recibe archivos mediante un servidor FTP .</p>
-				</section>
-			</article>
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Hacking</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>EXE Bomb Windows </strong><a target="_blank" href="https://github.com/SebastianEPH/EXE_Bomb_Windows"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Virus Troyano indetectable que satura RAM y procesador (nucleos e hilos) al 100%, bloquea mouse y teclado, hace colapsar la unidad C y Windows en tan solo segundos.</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>SpyTrojan Keylogger </strong><a target="_blank" href="https://github.com/SebastianEPH/SpyTrojan_Keylogger"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Troyano espía indetectable | Keylogger para Windows, se replica en el sistema y se inicia automaticamente al iniciar sesión. | Envío de registro mediante [Base de Datos], [Gmail] o [BotTelegram].</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>RAT TelegramSpyBot </strong><a target="_blank" href="https://github.com/SebastianEPH/RAT.TelegramSpyBot"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Troyano de acceso remoto | Se replica en el sistema y se inicia automaticamente al iniciar sesión.| Obtiene información  y archivos | controlado mediante un bot de telegram.</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>RAT via Telegram Windows </strong><a target="_blank" href="https://github.com/SebastianEPH/RAT_via_Telegram_Windows"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">[Proyecto Archivado] Troyano de acceso remoto para Windows via servidor de Telegram, controla y una una maquina infectada mediante un bot de Telegram - Python3 .</p>
-				</section>
-			</article>
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Funciones</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>CPU Stress </strong><a target="_blank" href="https://github.com/SebastianEPH/CPU_Stress"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Estresa cualquier procesador al 100% en cuestion de segundos, procesos exponenciales, hasta que windows da pantalla azul - Python.</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>KeyAndMouse_Block </strong><a target="_blank" href="https://github.com/SebastianEPH/KeyAndMouse_Block"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Simple, Bloquea el Teclado y el Mouse del infectado, dejando inutilizable la computadora - Python3.</p>
-				</section>
-			</article>
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Games</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>Super Bomberman 4 - GML</strong><a target="_blank" href="https://github.com/SebastianEPH/Super_Bomberman4"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Éste es un proyecto personal desarrollado en GameMakerStudio2, en la cual se pretende recrear el famoso juego bomberman 4, utilizando Sprites originales. También tiene como objetivo el motivar el aprendizaje de programación. .</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria"><strong>Snake Game - GML</strong><a target="_blank" href="https://github.com/SebastianEPH/SnakeGame"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Mítico Juego de la serpiente o gusanito, Desarrollado en GameMakerStudio2 .</p>
-				</section>
-			</article>
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Software</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>FullWindowsOptimitation FWO - C#o</strong><a target="_blank" href="https://github.com/SebastianEPH/FullWindowsOptimitation_FWO_C-Charp"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Es un software multifuncional para optimizar Windows [Crea, lee y elimina registros].[realiza copias de seguridad de los registros y las restaura][Desinstala apps Metro].[Desactiva Defender, Edge, etc.][ETC.] NOTA: “Está en proceso”.</p>
-				</section>
-				<section class="item-proyectos">
-					<p class="categoria"><strong>Password Manager C# </strong><a target="_blank" href="https://github.com/SebastianEPH/PasswordManager_C-Sharp"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Es un Administrador de contraseñas para Escritorio (C#), En ella podrás guardar información como tarjetas de crédito y contraseñas u otros. Éste proyecto está pensado para que la base de datos donde guarde esa información delicada, sea una personal, así usted se encargaría de la seguridad de ésta. Éste administrador de contraseñas cuenta con una versión[Java, C# y Java Android (qué está en desarrollo)], pero todas ellas se conectarán a la misma base de datos personal.</p>
-				</section>
-			</article>
-			<article class="contenedor-proyectos">
-				<h2 class="sub-titulo">Others</h2>
-				<section class="item-proyectos">
-					<p class="categoria proyecto"><strong>Windows 10 System Icon Pack</strong><a target="_blank" href="https://github.com/SebastianEPH/PIW-PackIconWindows-DLL"><i class="fas fa-link"></i>  Ir al Repositorio</a></p>
-					<p class="descripcion-proyecto">Pack de Iconos del system32 en DLL como por ejemplo (imageres.dll, shell32.dll) [Solo recopile iconos que me gustan de internet y las introduje dentro de éstos .dll] [El instalador es 7tsp(software que no es de mi pertenencia)] .</p>
-				</section>
-			</article>
-		</div>
-	</div>
-	<footer class="pie">
-		<h2 class="sub-titulo">Contacto</h2>
-		<div class="contenedor-red-social">
-			<p class="red-social"><a target="_blank" href="https://www.linkedin.com/in/sebastianeph/"><i class="icon fab fa-linkedin"></i></a></p>
-			<p class="red-social"><a target="_blank" href="https://t.me/sebastianeph"><i class="icon fab fa-telegram"></i></a></p>
-			<p class="red-social"><a target="_blank" href="https://github.com/SebastianEPH"><i class="icon fab fa-github"></i></a></p>
-			<p class="red-social"><a target="_blank" href="https://www.facebook.com/SebastianEPH"><i class="icon fab fa-facebook"></i></a></p>
-		</div>
-	</footer>
-	<script src="js/principal.js"></script>
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="container">
+                <div class="row p-1">
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-1">
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-sm m-2 p-2">
+                        <img src="https://images-strapi-storage.s3.amazonaws.com/IF_20_Logo_black_94ae320a75.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
 </body>
+    <!-- Bootstrap JavaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </html>
