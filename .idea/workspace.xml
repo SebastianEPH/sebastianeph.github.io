@@ -19,9 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd3bb13f-8360-463e-b161-13794f3f8363" name="Default Changelist" comment="">
+    <list default="true" id="beb1647f-d7ad-4605-baad-926b000b4411" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/app/models/cv.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/principal.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nM5sXJpp121y41eEuautsPL5TR" />
+  <component name="ProjectId" id="1nSEaUQcDh2173yRzUDL13EbEK8" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,17 +48,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="ts.external.directory.path" value="D:\SoftwareProjects\Angular\SebastianEPH.github.io\front\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd3bb13f-8360-463e-b161-13794f3f8363" name="Default Changelist" comment="" />
-      <created>1611187325580</created>
+      <changelist id="beb1647f-d7ad-4605-baad-926b000b4411" name="Default Changelist" comment="" />
+      <created>1611375154718</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611187325580</updated>
-      <workItem from="1611187326744" duration="7939000" />
+      <updated>1611375154718</updated>
+      <workItem from="1611375155996" duration="1917000" />
     </task>
     <servers />
   </component>
@@ -68,11 +76,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1920" y="349" width="1936" height="1174" key="dock-window-1" timestamp="1611187821711">
-      <screen x="-1920" y="349" width="1920" height="1080" />
-    </state>
-    <state x="-1920" y="349" width="1936" height="1174" key="dock-window-1/0.0.2560.1400/-1920.349.1920.1080@0.0.2560.1400" timestamp="1611187821711" />
   </component>
 </project>
