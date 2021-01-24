@@ -20,15 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb1647f-d7ad-4605-baad-926b000b4411" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/app/models/cv.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/models/project.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_temp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/principal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/navegation/navegation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/navegation/navegation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/navegation/navegation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/components/navegation/navegation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/view-cv/view-cv.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/view-cv/view-cv.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/view-cv/view-cv.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/components/view-cv/view-cv.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/models/cv.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/services/cv.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/services/cv.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="D:\SoftwareProjects\Angular\SebastianEPH.github.io\front\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611375154718</updated>
-      <workItem from="1611375155996" duration="1917000" />
+      <workItem from="1611375155996" duration="9106000" />
+      <workItem from="1611437112667" duration="8799000" />
     </task>
     <servers />
   </component>
@@ -76,5 +85,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611383339013">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.349.1920.1080@0.0.2560.1400" timestamp="1611383339013" />
+    <state x="1022" y="550" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1611383455635">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1022" y="550" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/-1920.349.1920.1080@0.0.2560.1400" timestamp="1611383455635" />
+    <state x="367" y="434" key="SettingsEditor" timestamp="1611383206902">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="367" y="434" key="SettingsEditor/0.0.2560.1400/-1920.349.1920.1080@0.0.2560.1400" timestamp="1611383206902" />
   </component>
 </project>
